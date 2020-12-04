@@ -4,5 +4,8 @@ mod primitive;
 
 pub use {
     point::Point,
-    primitive::Primitive,
+    primitive::{
+        PrimitiveType,
+        Primitive,
+    }
 };
